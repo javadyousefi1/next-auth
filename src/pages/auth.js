@@ -136,10 +136,10 @@ const AuthPage = () => {
               لطفا ایمیل یا شماره موبایل خود را وارد کنید
             </label>
 
-            <input className="mt-4 input-style" />
+            <input className="mt-4 input-style " />
             <button
               onClick={() => setStep((prev) => ++prev)}
-              className="mt-6 button-style"
+              className="mt-6 button-style animate"
             >
               ورود
             </button>
