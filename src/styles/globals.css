@@ -12,4 +12,15 @@
   font-family: "kalame";
   margin: 0;
   padding: 0;
+  user-select: #4a6dff;
+}
+
+::-moz-selection { /* Code for Firefox */
+  color: #4a6dff;
+  background: #fff;
+}
+
+::selection {
+  color: #4a6dff;
+  background: #fff;
 }
