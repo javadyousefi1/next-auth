@@ -1,0 +1,134 @@
+/* font face kalameh */
+@font-face {
+  font-family: "kalame";
+  font-style: normal;
+  font-weight: 100;
+  src: url("../../public/fonts/_eot/KalamehWeb-Thin.eot");
+  src: url("../../public/fonts/_eot/KalamehWeb-Thin.eot?#iefix")
+      format("embedded-opentype"),
+    /* IE6-8 */ url("../../public/fonts/_woff2/KalamehWeb-Thin.woff2")
+      format("woff2");
+  /* FF39+,Chrome36+, Opera24+*/
+  /* url("../../public/fonts/_woff/KalamehWeb-Thin.woff") format("woff"), */
+  /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+}
+
+@font-face {
+  font-family: "kalame";
+  font-style: normal;
+  font-weight: 200;
+  src: url("../../public/fonts/_eot/KalamehWeb-ExtraLight.eot");
+  src: url("../../public/fonts/_eot/KalamehWeb-ExtraLight.eot?#iefix")
+      format("embedded-opentype"),
+    /* IE6-8 */ url("../../public/fonts/_woff2/KalamehWeb-ExtraLight.woff2")
+      format("woff2"),
+    /* FF39+,Chrome36+, Opera24+*/
+      url("../../public/fonts/_woff/KalamehWeb-ExtraLight.woff") format("woff");
+  /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+  /* url("../../public/fonts/ttf/Kalameh-ExtraLight.ttf") format("truetype"); */
+}
+
+@font-face {
+  font-family: "kalame";
+  font-style: normal;
+  font-weight: 300;
+  src: url("../../public/fonts/_eot/KalamehWeb-Light.eot");
+  src: url("../../public/fonts/_eot/KalamehWeb-Light.eot?#iefix")
+      format("embedded-opentype"),
+    /* IE6-8 */ url("../../public/fonts/_woff2/KalamehWeb-Light.woff2")
+      format("woff2"),
+    /* FF39+,Chrome36+, Opera24+*/
+      url("../../public/fonts/_woff/KalamehWeb-Light.woff") format("woff");
+  /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+  /* url("../../public/fonts/ttf/Kalameh-Light.ttf") format("truetype"); */
+}
+
+@font-face {
+  font-family: "kalame";
+  font-style: normal;
+  font-weight: normal;
+  src: url("../../public/fonts/_eot/KalamehWeb-Regular.eot");
+  src: url("../../public/fonts/_eot/KalamehWeb-Regular.eot?#iefix")
+      format("embedded-opentype"),
+    /* IE6-8 */ url("../../public/fonts/_woff2/KalamehWeb-Regular.woff2")
+      format("woff2"),
+    /* FF39+,Chrome36+, Opera24+*/
+      url("../../public/fonts/_woff/KalamehWeb-Regular.woff") format("woff");
+  /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+  /* url("../../public/fonts/ttf/Kalameh-Light.ttf") format("truetype"); */
+}
+
+@font-face {
+  font-family: "kalame";
+  font-style: normal;
+  font-weight: 500;
+  src: url("../../public/fonts/_eot/KalamehWeb-Medium.eot");
+  src: url("../../public/fonts/_eot/KalamehWeb-Medium.eot?#iefix")
+      format("embedded-opentype"),
+    /* IE6-8 */ url("../../public/fonts/_woff2/KalamehWeb-Medium.woff2")
+      format("woff2"),
+    /* FF39+,Chrome36+, Opera24+*/
+      url("../../public/fonts/_woff/KalamehWeb-Medium.woff") format("woff");
+  /* FF3.6+, IE9, Chrome6+, Saf5.1+ */
+  /* url("../../public/fonts/ttf/Kalameh-Medium.ttf") format("truetype"); */
+}
+
+@font-face {
+  font-family: "kalame";
+  font-style: normal;
+  font-weight: 600;
+  src: url("../../public/fonts/_eot/KalamehWeb-SemiBold.eot");
+  src: url("../../public/fonts/_eot/KalamehWeb-SemiBold.eot?#iefix")
+      format("embedded-opentype"),
+    /* IE6-8 */ url("../../public/fonts/_woff2/KalamehWeb-SemiBold.woff2")
+      format("woff2"),
+    /* FF39+,Chrome36+, Opera24+*/
+      url("../../public/fonts/_woff/KalamehWeb-SemiBold.woff") format("woff");
+  /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+  /* url("../../public/fonts/ttf/Kalameh-SemiBold.ttf") format("truetype"); */
+}
+
+@font-face {
+  font-family: "kalame";
+  font-style: normal;
+  font-weight: 700;
+  src: url("../../public/fonts/_eot/KalamehWeb-Bold.eot");
+  src: url("../../public/fonts/_eot/KalamehWeb-Bold.eot?#iefix")
+      format("embedded-opentype"),
+    /* IE6-8 */ url("../../public/fonts/_woff2/KalamehWeb-Bold.woff2")
+      format("woff2"),
+    /* FF39+,Chrome36+, Opera24+*/
+      url("../../public/fonts/_woff/KalamehWeb-Bold.woff") format("woff");
+  /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+  /* url("../../public/fonts/ttf/Kalameh-Bold.ttf") format("truetype"); */
+}
+
+@font-face {
+  font-family: "kalame";
+  font-style: normal;
+  font-weight: 800;
+  src: url("../../public/fonts/_eot/KalamehWeb-ExtraBold.eot");
+  src: url("../../public/fonts/_eot/KalamehWeb-ExtraBold.eot?#iefix")
+      format("embedded-opentype"),
+    /* IE6-8 */ url("../../public/fonts/_woff2/KalamehWeb-ExtraBold.woff2")
+      format("woff2"),
+    /* FF39+,Chrome36+, Opera24+*/
+      url("../../public/fonts/_woff/KalamehWeb-ExtraBold.woff") format("woff");
+  /* FF3.6+, IE9, Chrome6+, Saf5.1+ */
+  /* url("../../public/fonts/ttf/Kalameh-ExtraBold.ttf") format("truetype"); */
+}
+
+@font-face {
+  font-family: "kalame";
+  font-style: normal;
+  font-weight: 900;
+  src: url("../../public/fonts/_eot/KalamehWeb-Black.eot");
+  src: url("../../public/fonts/_eot/KalamehWeb-Black.eot?#iefix")
+      format("embedded-opentype"),
+    /* IE6-8 */ url("../../public/fonts/_woff2/KalamehWeb-Black.woff2")
+      format("woff2"),
+    /* FF39+,Chrome36+, Opera24+*/
+      url("../../public/fonts/_woff/KalamehWeb-Black.woff") format("woff");
+  /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+  /* url("../../public/fonts/ttf/Kalameh-Black.ttf") format("truetype"); */
+}
