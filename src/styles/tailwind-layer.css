@@ -7,10 +7,10 @@
     @apply flex items-center justify-center;
   }
   .input-style {
-    @apply bg-[#f3f4f6] p-3 rounded-xl focus-within:bg-white border focus:border-primary outline-none transition-all ease-linear duration-200 focus:shadow-[0_35px_20px_-20px_rgba(74,109,255,0.5)];
+    @apply bg-[#f3f4f6] p-3 rounded-xl focus-within:bg-white border focus:border-primary outline-none transition-all ease-linear duration-200 focus:shadow-[0_35px_20px_-20px_rgba(74,109,255,0.5)] ;
   }
   .button-style {
-    @apply p-3 text-white bg-primary rounded-xl shadow-[0_20px_50px_-10px_rgba(74,109,255,1)] hover:bg-opacity-90;
+    @apply p-3 disabled:bg-gray-400 disabled:cursor-not-allowed text-white bg-primary rounded-xl disabled:shadow-[0_20px_50px_-10px_rgba(156,163,175,1)] shadow-[0_20px_50px_-10px_rgba(74,109,255,1)] hover:bg-opacity-90;
   }
 
 

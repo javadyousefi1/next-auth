@@ -10,10 +10,15 @@ import StatusLine from "@/components/auth/StatusLine";
 import Image from "next/image";
 
 import loginImg from "../../images/login.png";
+import FirstAuth from "@/components/auth/firstAuth";
 
 const AuthPage = () => {
   // auth line status step
   const [step, setStep] = useState(0);
+
+  const handleAddOneStep = () => {
+    setStep((prev) => ++prev);
+  };
 
   return (
     <>
@@ -58,19 +63,7 @@ const AuthPage = () => {
               className="flex flex-col"
             >
               <span className="mt-4 text-sm text-mainGray">سلام !</span>
-              <label htmlFor="username" className="text-sm text-mainGray">
-                لطفا ایمیل یا شماره موبایل خود را وارد کنید
-              </label>
-
-              <input className="mt-4 md:mt-6 input-style " />
-
-              <button
-                type="submit"
-                onClick={() => setStep((prev) => ++prev)}
-                className="mt-6 button-style animate md:mt-8"
-              >
-                ورود
-              </button>
+              <FirstAuth />
             </motion.div>
           </motion.div>
 
