@@ -14,7 +14,8 @@ module.exports = {
         center: true,
       },
       colors: {
-        primary: "#4a6dff", 
+        primary: "#4a6dff",
+        darkPrimary: "#1032c0",
         secondary: "#3f4264",
         mainBlack: "#212121",
         mainGray: "#9e9e9e",
