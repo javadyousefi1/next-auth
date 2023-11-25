@@ -33,6 +33,9 @@ const FirstAuth = ({ handleAddOneStep }) => {
 
     // fetch here
     setIsLoading(true);
+
+    // if succ
+    handleAddOneStep();
   };
 
   return (
@@ -74,7 +77,7 @@ const FirstAuth = ({ handleAddOneStep }) => {
               <div role="status">
                 <svg
                   aria-hidden="true"
-                  class="w-6 h-6 text-gray-200 animate-spin dark:text-white fill-darkPrimary md:mt-0 my-2"
+                  class="w-6 h-6 text-gray-200 animate-spin dark:text-white fill-darkPrimary md:mt-0 "
                   viewBox="0 0 100 101"
                   fill="none"
                   xmlns="http://www.w3.org/2000/svg"
