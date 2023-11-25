@@ -29,7 +29,9 @@ const FirstAuth = ({ handleAddOneStep }) => {
   });
 
   const onSubmit = (data) => {
+    alert("test");
     if (isLoading) return;
+
 
     // fetch here
     setIsLoading(true);
@@ -70,7 +72,6 @@ const FirstAuth = ({ handleAddOneStep }) => {
           <button
             type="submit"
             disabled={!isValid}
-            onClick={handleAddOneStep}
             className=" button-style animate md:mt-8 flex-center"
           >
             {isLoading ? (
